@@ -12,22 +12,44 @@ Untitled Story
 }
 
 
-:: Change Request {"position":"400,400","size":"100,100"}
+:: Change Request {"position":"350,400","size":"100,100"}
 You receive a change request to replace the website’s rounded rectangle buttons with arrows and adjust the colour palette to mix red and green text. However, you notice that the design is quite confusing and could potentially mislead users into unintentionally upgrading to a more expensive category.
 
 
 
-[[choose->implement changes]]
 [[Discuss your concerns with your manager->Discuss Concerns]]
+[[Unsure, you implement changes as needed->implement changes]]
 
 
-:: Dark Pattern Link {"position":"200,525","size":"100,100"}
+
+:: Dark Pattern Link {"position":"200,550","size":"100,100"}
 (open-url:"https://ethics.acm.org/code-of-ethics/using-the-code/case-dark-ux-patterns/")
 [[previous()]]
 
 
-:: Discuss Concerns {"position":"600,300","size":"100,100"}
-You receive a change request to replace the website’s rounded rectangle buttons with arrows and adjust the colour palette to mix red and green text. However, you notice that the design is quite confusing and could potentially mislead users into unintentionally upgrading to a more expensive category.
+:: Discuss Concerns {"position":"500,400","size":"100,100"}
+After voicing your concerns about the confusing design to your manager, they insist on implementing the changes as they were requested by the client.
+
+[[You decide it’s unethical, and refuse to implement the changes->Refuse to Implement]]
+[[Upon request, you implement the changes anyways->implement changes]]
+
+
+
+:: Refuse to Implement {"position":"650,400","size":"100,100"}
+After refusing to make the changes, your manager snaps at you that it is up to the client on what changes are made and it would be a big mistake to not implement these changes.
+
+
+
+
+[[Reluctantly, you decide to implement the changes in order to keep your manager satisfied.->implement changes]]
+
+[[After realizing your morals do not aligns with those of the company, you decide to resign from your position in protest.->Resign in Protest]]
+
+
+
+:: Resign in Protest {"position":"650,550","size":"100,100"}
+You decide to resign from your position, as you cannot support the unethical practices that the managers at this company promote.
+
 
 
 :: Start {"position":"200,400","size":"100,100"}
@@ -37,13 +59,9 @@ This "Choose Your Own Outcome" interactive story is based on the case study, Dar
 (t8n-time:0.8s)[[Stark->Change Request]]
 
 
-:: Untitled Passage 3 {"position":"575,725","size":"100,100"}
+:: implement changes {"position":"500,550","size":"100,100"}
+After implementing the changes, you hear that the staff is invited to a celebration of revenue increases
 
 
-
-:: implement changes {"position":"600,500","size":"100,100"}
-do some bad
-
-
-:: previous() {"position":"200,650","size":"100,100"}
+:: previous() {"position":"200,700","size":"100,100"}
 
