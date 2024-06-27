@@ -12,6 +12,13 @@ Untitled Story
 }
 
 
+:: Celebrate with Team {"position":"500,675","size":"100,100"}
+You attend the celebration where managers discuss the increase in revenue. However, they also mention a slight increase in refunds of their protection plan, as well as complaints from visually impaired users. He then overheard one of the managers mention that this means the changes worked as planned.
+
+[[You ignore the complaints, and continue your work->Ignore complaint]]
+[[You suggest a review of the design changes ->design changes]]
+
+
 :: Change Request {"position":"350,400","size":"100,100"}
 You receive a change request to replace the website’s rounded rectangle buttons with arrows and adjust the colour palette to mix red and green text. However, you notice that the design is quite confusing and could potentially mislead users into unintentionally upgrading to a more expensive category.
 
@@ -24,7 +31,7 @@ You receive a change request to replace the website’s rounded rectangle button
 
 :: Dark Pattern Link {"position":"200,550","size":"100,100"}
 (open-url:"https://ethics.acm.org/code-of-ethics/using-the-code/case-dark-ux-patterns/")
-[[previous()]]
+[[previous()]
 
 
 :: Discuss Concerns {"position":"500,400","size":"100,100"}
@@ -32,6 +39,21 @@ After voicing your concerns about the confusing design to your manager, they ins
 
 [[You decide it’s unethical, and refuse to implement the changes->Refuse to Implement]]
 [[Upon request, you implement the changes anyways->implement changes]]
+
+
+
+:: Escalate Issue {"position":"575,925","size":"100,100"}
+The manager was not pleased at first, but eventually approved a re-evaluated design, opting for a more user-friendly approach.
+
+Summary: Even though the revenue did not increase further, users seemed to appreciate the improved clarity. You feel relieved in committing to respecting user autonomy.
+
+
+
+
+:: Ignore complaint {"position":"400,800","size":"100,100"}
+You decided not to report the complaints made by the user. 
+
+Summary: Over time, more users reported issues with the new design, leading to a backlash. 
 
 
 
@@ -50,6 +72,9 @@ After refusing to make the changes, your manager snaps at you that it is up to t
 :: Resign in Protest {"position":"650,550","size":"100,100"}
 You decide to resign from your position, as you cannot support the unethical practices that the managers at this company promote.
 
+Endgame.
+Summary: You wrote your resignation letter and submitted it. Although you were anxious about your future at first, you feel relieved knowing you withstood your principles.
+
 
 
 :: Start {"position":"200,400","size":"100,100"}
@@ -59,9 +84,22 @@ This "Choose Your Own Outcome" interactive story is based on the case study, Dar
 (t8n-time:0.8s)[[Stark->Change Request]]
 
 
+:: design changes {"position":"575,800","size":"100,100"}
+You decide to voice the complaints you overheard. The manager acknowledged the issue, but more concerned with the increased revenue, the manager suggested I let the issue go.
+
+[[You escalate the issue->Escalate Issue]]
+
+[[After realizing your morals do not aligns with those of the company, you decide to resign from your position in protest->Resign in Protest]]
+
+[[You ignore the complaints, and continue your work->Ignore complaint]]
+
+
+
+
+
+
+
 :: implement changes {"position":"500,550","size":"100,100"}
 After implementing the changes, you hear that the staff is invited to a celebration of revenue increases
 
-
-:: previous() {"position":"200,700","size":"100,100"}
-
+[[Despite your beliefs of it being confusing and misleading, you decide to attend the celebration with the staff anyways ->Celebrate with Team]]
