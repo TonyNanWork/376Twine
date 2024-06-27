@@ -1,0 +1,49 @@
+:: StoryTitle
+Untitled Story
+
+
+:: StoryData
+{
+  "ifid": "22032796-A071-4895-9CD9-2A8C5A03C1C5",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Start",
+  "zoom": 1
+}
+
+
+:: Change Request {"position":"400,400","size":"100,100"}
+You receive a change request to replace the website’s rounded rectangle buttons with arrows and adjust the colour palette to mix red and green text. However, you notice that the design is quite confusing and could potentially mislead users into unintentionally upgrading to a more expensive category.
+
+
+
+[[choose->implement changes]]
+[[Discuss your concerns with your manager->Discuss Concerns]]
+
+
+:: Dark Pattern Link {"position":"200,525","size":"100,100"}
+(open-url:"https://ethics.acm.org/code-of-ethics/using-the-code/case-dark-ux-patterns/")
+[[previous()]]
+
+
+:: Discuss Concerns {"position":"600,300","size":"100,100"}
+You receive a change request to replace the website’s rounded rectangle buttons with arrows and adjust the colour palette to mix red and green text. However, you notice that the design is quite confusing and could potentially mislead users into unintentionally upgrading to a more expensive category.
+
+
+:: Start {"position":"200,400","size":"100,100"}
+This "Choose Your Own Outcome" interactive story is based on the case study, Dark Pattern UX, by the ACM Committee on Professional Ethics.
+
+
+(t8n-time:0.8s)[[Stark->Change Request]]
+
+
+:: Untitled Passage 3 {"position":"575,725","size":"100,100"}
+
+
+
+:: implement changes {"position":"600,500","size":"100,100"}
+do some good
+
+
+:: previous() {"position":"200,650","size":"100,100"}
+
