@@ -42,7 +42,7 @@ This "Choose Your Own Outcome" interactive story is based on the case study, Dar
 
 
 :: implement changes {"position":"600,500","size":"100,100"}
-do some good
+do some bad
 
 
 :: previous() {"position":"200,650","size":"100,100"}
