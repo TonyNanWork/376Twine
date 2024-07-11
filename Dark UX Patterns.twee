@@ -1,0 +1,117 @@
+:: StoryTitle
+Dark UX Patterns
+
+
+:: StoryData
+{
+  "ifid": "22032796-A071-4895-9CD9-2A8C5A03C1C5",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Start",
+  "zoom": 1
+}
+
+
+:: Celebrate with Team {"position":"500,700","size":"100,100"}
+You attend the celebration where managers discuss the increase in revenue. However, they also mention a slight increase in refunds for the paid subscription, as well as complaints from users who were not clearly informed about enrolling into the subscription and canceling it. You then overhear one of the managers mentioning that this means the changes worked as planned, revealing that the change request was driven by the managers’ goal to increase paid subscriptions rather than by client demand.
+
+[[You ignore the complaints, and continue your work.->Ignore complaint]]
+[[You suggest a review of the design changes. ->design changes]]
+
+
+:: Change Request {"position":"300,400","size":"100,100"}
+As your first project, you receive a change request to redesign the design of the company’s application page where users decide whether to start a free trial or subscribe to the paid option. However, you notice that the design is quite confusing and could potentially mislead users into unintentionally enrolling in a full-year nonrefundable paid subscription after the free trial ends. Furthermore, you start to think that the request for the design of the cancel option would be confusing for some users as it was designed to be obscure rather than making a distinct label called ‘cancel subscription’.
+
+
+
+[[Discuss your concerns with your co-workers.->Discuss Coworker]]
+[[Unsure, you implement changes as needed.->implement changes]]
+
+
+:: Discuss Concerns {"position":"500,400","size":"100,100"}
+You explain to the manager how the current design might mislead users into unintentionally enrolling in a paid subscription and create difficulties when attempting to cancel. Despite your detailed explanation and the potential ethical implications, the manager reiterates that the client’s request takes precedence in the company’s ethics and emphasizes the importance of adhering to the client’s requests. Furthermore, you notice that the manager looks annoyed at your objection.
+Feeling conflicted, you wonder whether you should refuse to implement the changes or prioritize keeping your job safe over your ethical concerns.
+
+[[You decide it’s unethical, and refuse to implement the changes.->Refuse to Implement]]
+[[Upon request, you implement the changes anyways.->implement changes]]
+
+
+:: Discuss Coworker {"position":"400,250","size":"100,100"}
+After voicing your concerns about the confusing design to your co-workers on the team, they acknowledge that the new design will take advantage of uninformed users, but they suggest that you should focus on developing your career here rather than risking it. After a brief period of contemplation, you gather the courage and decide to speak up to the manager with an explanation.
+
+[[Talk to the manager ->Discuss Concerns]]
+
+
+:: Escalate Issue {"position":"750,850","size":"100,100"}
+The manager was not pleased at first, but eventually approved a re-evaluated design, opting for a more user-friendly design where users are clearly informed of enrolling into the subscription and can easily cancel it.
+
+
+Summary: Even though the revenue did not increase further, users seemed to appreciate the improved clarity. You feel relieved in committing to respecting user autonomy.
+
+
+:: Ignore complaint {"position":"400,850","size":"100,100"}
+You decided not to report the complaints made by the user. 
+
+Endgame.
+
+Summary: Over time, more users reported issues with the new design, leading to backlash and a lose in revenue from charge backs.
+
+
+:: Introduction {"position":"100,600","size":"100,100"}
+It is your first day in your new position as a UX designer. The company that hired you develops Entertainment applications. The company offers the applications with either free access with limited features or paid subscriptions that users can pay for to get full access to all features. Your job description was to rearrange the design of the application. 
+Nervous about starting a new job and excited to get going and impress the manager, you head towards the department, where the manager introduces you to the rest of the team.
+
+[[Get introduced to the Team->meet team]]
+
+
+:: Refuse to Implement {"position":"700,400","size":"100,100"}
+After refusing to make the changes, your manager snaps at you that it is up to the client on what changes are made and it would be a big mistake to not implement these changes.
+
+
+
+
+[[Reluctantly, you decide to implement the changes in order to keep your manager satisfied.->implement changes]]
+
+[[After realizing your morals do not aligns with those of the company, you decide to resign from your position in protest.->Resign in Protest]]
+
+
+:: Resign in Protest {"position":"700,600","size":"100,100"}
+You decide to resign from your position, as you cannot support the unethical practices that the managers at this company promote.
+
+Endgame.
+Summary: You wrote your resignation letter and submitted it. Although you were anxious about your future at first, you feel relieved knowing you withstood your principles.
+
+
+:: Start {"position":"100,400","size":"100,100"}
+''Dark Pattern UX
+''
+
+
+This "Choose Your Own Adventure" interactive story is based on the case study, "(link: "Dark Pattern UX")[(goto-url: 'https://ethics.acm.org/code-of-ethics/using-the-code/case-dark-ux-patterns/')]", by the ACM Committee on Professional Ethics.
+
+Group Members: Eric Lee, Tony Nan, Kyle Santema
+
+
+(t8n-time:0.8s)[[Start.->Introduction]]
+
+
+:: design changes {"position":"600,850","size":"100,100"}
+You decide to voice the complaints you overheard. The manager acknowledged the issue, but more concerned with the increased revenue, the manager suggested I let the issue go.
+
+[[You insist and escalate the issue.->Escalate Issue]]
+
+[[After realizing your morals do not aligns with those of the company, you decide to resign from your position in protest.->Resign in Protest]]
+
+[[You ignore the complaints, and continue your work.->Ignore complaint]]
+
+
+:: implement changes {"position":"500,550","size":"100,100"}
+After implementing the changes, you hear that the staff is invited to a celebration of revenue increases. The new design changes you made were a big part of the increase in revenue, even though you still believe that the new design disrespected the users’ autonomy.
+
+[[Despite your beliefs of the design being confusing and misleading, you decide to attend the celebration with the staff anywa. ->Celebrate with Team]]
+
+
+:: meet team {"position":"300,600","size":"100,100"}
+As you go around meeting the rest of the team, everyone introduces themselves and gives you a warm welcome. The atmosphere is exactly what you were looking for in a job and you can tell that everyone genuinely enjoys working there. Once the introductions are over you go to your desk and check your email.
+
+[[receive your first project->Change Request]]
